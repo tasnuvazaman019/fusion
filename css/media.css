@@ -1,0 +1,250 @@
+/*Extra small devices (portrait phones, less than 576px)
+*/@media (max-width: 575.98px) { 
+    /*header start*/
+    .h_content{
+     padding-top: 90px;
+    padding-bottom: 60px;
+    } 
+     .text1 {
+     font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding: 14px 5px;
+}
+	.menu ul li a {
+     font-size: 12px;
+     padding: 1px;
+     border: none;
+}
+   .menu ul li a:hover{
+    color: #F7AC53 !important;
+
+}
+    /*header end*/
+    .vl-cus {
+    height: 28px;
+}
+.team-p {
+    font-size: 11px;
+    padding-top: 4px;
+}
+    .team-h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 10px;
+}
+/*details start*/
+.all-item {
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+.d_icon{
+  font-size: 20px;
+}
+.d_h {
+    font-size: 20px;
+    padding: 12px 0px;
+}
+.d_p {
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+.p-details {
+    padding-bottom: 25px;
+    font-size: 12px;
+}
+/*details end*/
+/*work start*/
+.work-h1 {
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 5px;
+}
+/*work end*/
+/*slider start*/
+.cid li {
+    width: 10;
+    width: 7px;
+    height: 3px;
+    background-color: white;
+}
+.s-img {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+/*slider end*/
+/*footer start*/
+.footer-p {
+    font-size: 5px;
+    margin: 0;
+    text-transform: lowercase;
+    padding-top: 20px;
+}
+/*footer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*header start*/
+    .h_content{
+	padding-top: 130px;
+    padding-bottom: 170px;
+	} 
+     .text1{
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    padding: 25px 1px;
+
+}
+	.menu ul li a {
+     font-size: 12px;
+     padding: 1px;
+     border: none;
+}
+.menu ul li a:hover{
+    color: #F7AC53 !important;
+
+}
+    /*header end*/
+    .vl-cus{
+    height: 45px;
+}
+.team-p{
+    font-size: 12px;
+    padding-top: 8px;
+}
+.team-h1 {
+    font-size: 19px;
+    line-height: 28px;
+    padding-top: 8px;
+}
+/*details start*/
+.all-item {
+    padding-top: 70px;
+    padding-bottom: 55px;
+}
+.d_icon{
+  font-size: 20px;
+}
+.d_h {
+    font-size: 18px;
+    padding: 10px 0px
+}
+.d_p {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.p-details {
+    font-size: 10px;
+}
+/*details end*/
+/*work start*/
+.work-h1 {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 8px;
+}
+/*slider start*/
+.cid li {
+    width: 10;
+    width: 7px;
+    height: 3px;
+    background-color: white;
+}
+/*slider end*/
+/*footer start*/
+.footer-p {
+    font-size: 5px;
+    margin: 0;
+    text-transform: lowercase;
+    padding-top: 20px;
+}
+/*footer end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header start*/
+    .content_top {
+    padding-top: 50px;
+    padding-bottom: 4px;
+}
+     .text1 {
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    padding: 25px 1px;
+
+}
+.bottom_p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+}
+/*header end*/
+/*team start*/
+.vl-cus{
+    height: 65px;
+}
+.team-p{
+    font-size: 12px;
+    padding-top: 14px;
+}
+.team-h1 {
+    font-size: 34px;
+    line-height: 48px;
+    padding-top: 22px;
+}
+/*team end*/
+/*details start*/
+.d_icon{
+  font-size: 20px;
+}
+.d_h {
+    font-size: 24px;
+    padding: 15px 0px;
+}
+.d_p {
+    font-size: 10px;
+    line-height: 18px;
+    padding-bottom: 9px;
+}
+/*details end*/
+/*work start*/
+.work-h1 {
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 18px;
+}
+.s-img {
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+/*work end*/
+/*footer start*/
+.footer-p {
+    font-size: 12px;
+    color: #CBCBCB;
+    margin: 0;
+    text-transform: lowercase;
+    padding-top: 80px;
+}
+/*footer end*/
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*header start*/
+    .bottom_p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+    /*header end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  
+}
